@@ -6,7 +6,7 @@ extra.footer_nav=true
 {% padded_block() %}
 This website is administered by the Chair for Statistics and Data Science in Social Sciences and the Humanities (SODA) headed by Prof. Dr. Frauke Kreuter at the Ludwig-Maximilians University of Munich. 
 
-Address: 
+**Address:**
 
 Geschwister-Scholl-Platz 1
 
