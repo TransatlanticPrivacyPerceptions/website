@@ -47,22 +47,10 @@ institution = "LMU MUNICH"
 image = "photos/Wiebke.jpg"
 
 [[person]]
-name = "Sonja Kellner"
-role = "Team"
-institution = "LMU Munich & Microsoft"
-image = "photos/Sonja.jpeg"
-
-[[person]]
 name = "Mariel McKone Leonard"
 role = "Team"
 institution = ""
 image = "photos/Mariel.jpg"
-
-[[person]]
-name = "Srija Mukhopadhyay"
-role = "Team"
-institution = "LMU Munich"
-image = "photos/Srija.jpg"
 
 [[person]]
 name = "Trent Buskirk"
