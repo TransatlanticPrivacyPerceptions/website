@@ -18,6 +18,12 @@ The Core Scientific Team of TAPP comprises leading researchers and scholars spec
     image_path="people/"
   )
 }}
+{{
+  gallery_person(
+    data_path="people/former_members.toml"
+    image_path="people/"
+  )
+}}
 {{ anchor(title="Topic Partner")}}
 {% block_1c(title="Topic Partner" bg="accent") %}
 
