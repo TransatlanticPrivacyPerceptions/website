@@ -22,4 +22,10 @@ extra.main_nav = true
         &nbsp
         <img src="/assets/arrow_away.svg" class="inline-arrow">
     </div>
+    <div style="display: flex; align-items: center; margin-bottom: 10px;">
+        <a href="wave6">Wave 6 (June 2025)</a>
+        &nbsp
+        &nbsp
+        <img src="/assets/arrow_away.svg" class="inline-arrow">
+    </div>
 {% end %}
