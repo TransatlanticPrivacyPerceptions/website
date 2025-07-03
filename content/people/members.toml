@@ -93,3 +93,9 @@ name = "Anna Fuchs"
 role = "Team"
 institution = "LMU Munich"
 image = "photos/Anna.jpg"
+
+[[person]]
+name = "Fedor Miasnikov"
+role = "Team"
+institution = "LMU Munich"
+image = "photos/Fedor.jpg"
