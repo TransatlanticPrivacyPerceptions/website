@@ -76,7 +76,7 @@ differs from other surveys by systematically gathering insights from a diverse c
 spanning multiple industries and countries and whose expertise provides practical perspectives on
 regulatory implementation, enforcement and effectiveness.
 
-**2.1 Panel sample composition** The target population for the TAPP Panel is self-identified privacy policy experts with expertise in
+**2.1 Panel Sample Composition** The target population for the TAPP Panel is self-identified privacy policy experts with expertise in
 countries located on both sides of the Atlantic. The sample constitutes a purposive sample, indicating
 that participants were selected based on their expertise rather than randomly. Given our sampling
 strategy and the significant difficulty in recruiting digital privacy experts to participate, conclusions
@@ -84,7 +84,7 @@ should not be extrapolated to the entire population of privacy experts. All resu
 and on the TAPP website and reports are descriptive statistics obtained from the panel's respondents
 and are not intended to be generalizable to the whole population.
 
-**2.3 Data collection** The most recent wave of data collection, reported here, is Wave 6. The Wave 6 questionnaire asked
+**2.3 Data Collection** The most recent wave of data collection, reported here, is Wave 6. The Wave 6 questionnaire asked
 respondents about their perceptions of changes in data sharing and access processes and policies,
 particularly in response to the growing implementation of AI (see Section 3 for specific questions and
 findings). Wave 6 fielding initially ran from 5 February to 5 March 2025, but was extended from 28 March
@@ -111,7 +111,7 @@ European experts also express greater influence in their organizations' data and
 Americans do. Finally, all experts report concern that bad actors could use data to manipulate the
 general public.
 
-**3.1 Data protection** Data governance is a moving target. A majority of participants in both the US and EU report that their
+**3.1 Data Protection** Data governance is a moving target. A majority of participants in both the US and EU report that their
 organization has changed how it protects data in the past 1-2 years.
 
 *In the last 1-2 years, has your organization changed how it protects data? (org_protect)*
@@ -121,7 +121,7 @@ organization has changed how it protects data in the past 1-2 years.
     <p style="font-weight: bold;">Figure 1. Percentage of organizations that changed their data protection in the last 1-2 years</p>
 </div>
 
-**3.2 Changes in sharing data** 
+**3.2 Changes in Sharing Data** 
 
 *In the last 1-2 years, has your organization changed the way it shares data with other organizations
 nationally? (org_sharing and org_sharing_natl combined)*
@@ -131,148 +131,116 @@ nationally? (org_sharing and org_sharing_natl combined)*
     <p style="font-weight: bold;">Figure 2. Perception of organizational change in national data sharing in the last 1-2 years</p>
 </div>
 
-{% end %}
-
-
-{{ anchor(title="Findings")}}
-{% block_1c_nopad(title="3 Findings" bg="grey") %}
-**3.1 Respondents Profile**
-Wave 5 of the TAPP survey received responses from 66 participants. In terms of professional background, 35% are from academia, and 14 % are from the tech industry while 14 % are from the private sector, but from non-tech industry (Figure 1). 
+*n the last 1-2 years, has your organization changed the way it shares data with other organizations
+internationally? (org_sharing and org_sharing_intl combined)*
 
 <div style="text-align: center; margin-bottom: 40px;">
-    <img src="Figure1.png" alt="Figure 1. Respondents composition by sector" style="display: block; width: 100%; max-width: 75%; margin: 60px auto 0;">
-    <p style="font-weight: bold;">Figure 1. Respondents composition by sector</p>
+    <img src="fig3.png" alt="Figure 1. Respondents composition by sector" style="display: block; width: 100%; max-width: 75%; margin: 60px auto 0;">
+    <p style="font-weight: bold;">Figure 3. Perception of organizational change in international data sharing in the last 1-2 years</p>
 </div>
 
-Notably, 52% of respondents have worked in the privacy field for more than 10 years (Figure 2), and only 3% less than a year. The sample includes 44 participants with more knowledge about the European privacy context and 22 of the American context.
+Data sharing, on the other hand, remains largely unchanged on the whole, with a majority of both
+European and US respondents reporting no change at all in the way their organizations share data
+nationally or internationally. However, a significant minority of American respondents reported
+decreased data sharing in the last 1-2 years.
+
+**3.3 Data Access**
+
+*Overall, in the last 1-2 years, have policy changes in [the US / the EU / country] made accessing
+government data / proprietary data easier, harder, or stayed the same? (access_gov and access_prop)*
 
 <div style="text-align: center; margin-bottom: 40px;">
-    <img src="Figure2.png" alt="Figure 2. Respondents composition by years of experience with privacy" style="display: block; width: 100%; max-width: 75%; margin: 60px auto 0;">
-    <p style="font-weight: bold;">Figure 2. Respondents composition by years of experience with privacy</p>
+    <img src="tab1.png" alt="Figure 1. Respondents composition by sector" style="display: block; width: 100%; max-width: 75%; margin: 60px auto 0;">
+    <p style="font-weight: bold;">Table 1. Perception of the influence of policy changes in the last 1-2 years on accessing government and proprietary data</p>
 </div>
 
-**3.2 Balance of interest in digital privacy laws**
+During the period of our survey, the United States was undergoing a crisis of access to government data
+after a change in administration, and that was reflected in our survey. 60% of US respondents indicated
+that it was becoming harder to access government data. 50% of US respondents were also concerned
+about access to proprietary or industry data.
 
-The comparison of interest in digital privacy laws reveals relevant regional differences. In Europe, there's a notable shift towards favoring individual users over businesses. From 2023 to 2024, the percentage of respondents believing laws favor individual users rose from 44% to 75%. Conversely, in the United States (USA), the perception that laws favor businesses remains overwhelmingly high, with 92% in 2023 and 86% in 2024. This underscores the divergent approach to privacy laws on either side of the Atlantic, with Europe moving towards greater protection for individuals while the USA maintains a business-friendly stance (Figure 3).
+**3.4 Influence at Organizational Level**
+
+*Do you feel you have influence in the development of data policies at organizational level?
+(data_influence_org)*
 
 <div style="text-align: center; margin-bottom: 40px;">
-    <img src="Figure3.png" alt="Figure 3. Balance of interest in digital privacy laws" style="display: block; width: 100%; max-width: 75%; margin: 60px auto 0;">
-    <p style="font-weight: bold;">Figure 3. Balance of interest in digital privacy laws</p>
+    <img src="tab1.png" alt="Figure 1. Respondents composition by sector" style="display: block; width: 100%; max-width: 75%; margin: 60px auto 0;">
+    <p style="font-weight: bold;">Figure 4. Perception of personal influence in the development of data policies at organizational level</p>
 </div>
 
-**3.3 Influence of laws on development of privacy-preserving practices and technologies**
-
-This analysis highlights a growing perception in the USA that privacy laws are encouraging innovation in privacy-preserving technologies (Figure 4). The percentage of respondents in the USA who believe laws encourage innovation almost doubled, from 27% in 2023 to 50% in 2024. On the other hand, Europe shows a slight decline in this belief, dropping from 49% in 2023 to 41% in 2024. However, this difference primarily leaned towards neutrality, increasing from 23% to 36%, rather than discouragement, which decreased from 28% to 23%. This trend indicates a positive shift in the USA towards recognizing the benefits of privacy laws in fostering technological innovation, while Europe maintains a more balanced view.
+*Do you feel you have influence in the development of AI policies at organizational level?
+(AI_influence_org)*
 
 <div style="text-align: center; margin-bottom: 40px;">
-    <img src="Figure4.png" alt="Figure 4. Influence of laws on development of privacy-preserving practices and technologies" style="display: block; width: 100%; max-width: 75%; margin: 60px auto 0;">
-    <p style="font-weight: bold;">Figure 4. Influence of laws on development of privacy-preserving practices and technologies</p>
+    <img src="fig5.jpeg" alt="Figure 1. Respondents composition by sector" style="display: block; width: 100%; max-width: 75%; margin: 60px auto 0;">
+    <p style="font-weight: bold;">Figure 5. Perception of personal influence in the development of AI policies at organizational level</p>
 </div>
 
-**3.4 Comprehensiveness of digital privacy laws**
+European respondents are feeling much more confident about their influence within their
+organizations. 70% of respondents reported influence on both data and AI policies in their organization.
+In contrast, only 35% of US respondents reported influence on data policies, while US respondents
+were evenly split on whether they impacted AI policies in their organizations
 
-There is a notable difference between stakeholders in Europe and the USA regarding whether digital privacy laws cover the necessary areas (Figure 5). In Europe, 55% in 2022, 57% in 2023 and 43% in 2024 felt the laws cover fewer areas than needed. In the USA, 100% of respondents in 2022, 94% in 2023 and 95% in 2024 felt that the laws cover fewer areas than required, suggesting a broader dissatisfaction in the US about the comprehensiveness of these laws.
+**3.5 Influence at National Policy Level**
+
+*Do you feel you have influence in the development of data policies at national policy level?
+(dat_influence_policy)*
 
 <div style="text-align: center; margin-bottom: 40px;">
-    <img src="Figure5.png" alt="Figure 5. Comprehensiveness of digital privacy laws" style="display: block; width: 100%; max-width: 75%; margin: 60px auto 0;">
-    <p style="font-weight: bold;">Figure 5. Comprehensiveness of digital privacy laws</p>
+    <img src="fig6.png" alt="Figure 1. Respondents composition by sector" style="display: block; width: 100%; max-width: 75%; margin: 60px auto 0;">
+    <p style="font-weight: bold;">Figure 6. Perception of personal influence in the development of data policies at national policy level</p>
 </div>
 
-**3.5 Enforcement of digital privacy practices**
-
-The enforcement of digital privacy practices presents an interesting contrast between Europe and the USA (Figure 6). In Europe, there's a noticeable increase in the belief that privacy practices are "Mostly" enforced, rising from 9% in October 2022 to 27% in August 2024. Meanwhile, in the USA, perceptions remain more stable with a slight increase in minimal enforcement, suggesting that privacy practices are "A little" enforced. This contrast highlights the varying levels of regulatory enforcement and public perception, with Europe moving towards stronger enforcement and the USA showing more mixed views.
+*Do you feel you have influence in the development of AI policies at national policy level?
+(AI_influence_policy)*
 
 <div style="text-align: center; margin-bottom: 40px;">
-    <img src="Figure6.png" alt="Figure 6. Enforcement of digital privacy practices" style="display: block; width: 100%; max-width: 75%; margin: 60px auto 0;">
-    <p style="font-weight: bold;">Figure 6. Enforcement of digital privacy practices</p>
+    <img src="fig7.jpeg" alt="Figure 1. Respondents composition by sector" style="display: block; width: 100%; max-width: 75%; margin: 60px auto 0;">
+    <p style="font-weight: bold;">Figure 7. Perception of personal influence in the development of AI policies at national policy level</p>
 </div>
 
-**3.6 Current and future outlook of digital privacy laws**
+However, when it came to national data governance policies in both regions, many fewer respondents
+felt they had influence. Overwhelming majorities in both regions answered that they did not influence
+data or AI policies at the national level.
 
-Respondents generally perceive EU digital privacy laws more favorably compared to those in the USA. Figure 7 shows that the percentage of respondents rating the current state of EU digital privacy laws as good or excellent increased from 48% to 59% over the past year. Conversely, while 100% of respondents classified the USA's digital privacy laws as poor or fair in 2023, this figure decreased to 91% in 2024, with 9% now evaluating them as good or excellent.
+**3.6 Perceived Manipulation**
 
-When considering the future, optimism about the EU's digital privacy trajectory declined, with the percentage of optimistic respondents dropping from 49% to 36%. Opinions about the USA's future regulations remain divided, with 41% of respondents still expressing pessimism and 45% expressing optimism.
+*How concerned are you that adversaries or bad actors could use data to manipulate the general public?
+(public_manipulation)*
 
 <div style="text-align: center; margin-bottom: 40px;">
-    <img src="Figure7.png" alt="Figure 7. Enforcement of digital privacy practices" style="display: block; width: 100%; max-width: 75%; margin: 60px auto 0;">
-    <p style="font-weight: bold;">Figure 7. Enforcement of digital privacy practices</p>
+    <img src="fig8.png" alt="Figure 1. Respondents composition by sector" style="display: block; width: 100%; max-width: 75%; margin: 60px auto 0;">
+    <p style="font-weight: bold;">Figure 8. Concern about manipulation by adversaries or bad actors towards the general public</p>
 </div>
 
-**3.7 Policy making approaches in digital privacy protection**
-
-The pessimistic evaluation of privacy laws in the USA might be attributed to its fragmented privacy framework. As Figure 8 shows, 64% of respondents believe that digital privacy policy in the US should be established at the federal level, while 36% think it should be at both the state and federal levels. None of the respondents believe it should be determined solely at the state level, which reflects the current situation. In Europe, 3% of respondents think that privacy laws should be made exclusively at the EU member-state level, while 56% support an EU-level approach only and 41% favor a combination of both levels.
+*How concerned are you that adversaries or bad actors could use data to manipulate people
+like you? (self_manipulation)*
 
 <div style="text-align: center; margin-bottom: 40px;">
-    <img src="Figure8.png" alt="Figure 8. Policymaking approaches in digital privacy protection" style="display: block; width: 100%; max-width: 75%; margin: 60px auto 0;">
-    <p style="font-weight: bold;">Figure 8. Policymaking approaches in digital privacy protection</p>
+    <img src="fig9.jpeg" alt="Figure 1. Respondents composition by sector" style="display: block; width: 100%; max-width: 75%; margin: 60px auto 0;">
+    <p style="font-weight: bold;">Figure 9. Concern about manipulation by adversaries or bad actors towards oneself</p>
 </div>
 
-**3.8 Current and future outlook of organizational digital privacy practices**
+Finally, we asked about perceptions of the possible negative impacts of changing data governance,
+including potential misuses of data and negative impacts for work, the economy, and the conduct of
+science. A large majority of both European and US respondents worried that data could be used to
+manipulate the general public, but many less worried about being manipulated themselves.
 
-Regarding the overall assessment of organizations' digital privacy policies and practices (Figure 9), the current state remains negative, especially in the USA, where 95% of respondents rated it as poor or fair in 2024, compared to 91% in 2023. In Europe, 75% and 76% of respondents evaluated it negatively in 2024 and 2023, respectively.
+**Negative Impact of Policies**
 
-The future outlook for organizational digital privacy is more optimistic in Europe than in the USA, though it declined from 2023 to 2024: in 2023, 55% of respondents viewed it as somewhat or very optimistic, but this dropped to 32% in 2024. Many respondents shifted to a neutral stance, with those indicating “neither” increasing from 17% to 41%. In the USA, the future outlook remains pessimistic, with 57% of respondents being very or somewhat pessimistic in 2023 and 55% in 2024, and those seeing it as somewhat or very optimistic decreased from 31% to 18%.
-
+*In your opinion, have state or national policies that restrict data flows had a positive, negative, or
+no impact on your work / on the national economy as a whole / on science?
+(Neg_restrictions_work, Neg_restrictions_econ, Neg_restrictions_science)*
 
 <div style="text-align: center; margin-bottom: 40px;">
-    <img src="Figure9.png" alt="Figure 9. Current and future outlook of organizational digital privacy practices" style="display: block; width: 100%; max-width: 75%; margin: 60px auto 0;">
-    <p style="font-weight: bold;">Figure 9. Current and future outlook of organizational digital privacy practices</p>
+    <img src="fig10.png" alt="Figure 1. Respondents composition by sector" style="display: block; width: 100%; max-width: 75%; margin: 60px auto 0;">
+    <p style="font-weight: bold;">Figure 10. Perception of negative impact of state or national policies that restrict data flows</p>
 </div>
 
-**3.9 Stakeholder ratings of organizations’ privacy protection performance**
-
-Regardless of region, public organizations such as country statistical agencies, tax authority and social security authority are better evaluated according to their privacy protection performance than private organizations, which include Meta, Google, Amazon, Visa, Mastercard, Apple, and Microsoft. 24% of the respondents for the USA and 18% for Europe evaluate the privacy protection performance of public institutions as excellent (Figure 10). On the other hand, 45% of the respondents from Europe and 34% from the USA evaluate the privacy protection performance of private organizations as poor.  For detailed analysis for specific organizations we refer to our dynamic data visualization tool at <a href="https://privacyperceptions.org/results/">https://privacyperceptions.org/results/</a>
-
-
-<div style="text-align: center; margin-bottom: 40px;">
-    <img src="Figure10.png" alt="Figure 10. Organizations privacy protection performance ratings" style="display: block; width: 100%; max-width: 75%; margin: 60px auto 0;">
-    <p style="font-weight: bold;">Figure 10. Organizations privacy protection performance ratings</p>
-</div>
-
-**3.10 Most important approach in protecting people’s digital privacy**
-
-In Wave 5, "enforcing rules about how data is processed, stored, and shared" emerged as the most crucial approach to protecting individuals' digital privacy for Europeans(Figure 11), with the highest percentage of respondents ranking it as their top priority (30%). However, in Wave 2, this focus on enforcement dropped to fifth place (16%, Figure 13), with the emphasis shifting to "designing and deploying privacy-preserving technology" as the primary priority (27%).
-In 2024, “regulating how data is processed, stored, and shared” was generally a lower priority, with 35% of respondents ranking it as least important (rank number 5) while in 2023, "giving individuals control over their data" was the least important with 34% of respondents ranking it as 5.
-Interestingly, in 2024, 36% of privacy experts in the USA stated that "giving individuals control over their data" is both the most important and least important aspect (Figure 12). While “giving individuals control over their data" was the least important approach in protecting people’s digital privacy in 2023 (47%, Figure 14), the most important were “designing and deploying privacy-preserving technology” and “regulating data processing, storage and sharing” with 29% of the respondents ranking them as number 1.
-Regional preferences also varied: in 2024, USA experts placed a higher emphasis on data control, with 36% ranking it as their top priority compared to 12% of European experts. Conversely, European experts favored technology-based solutions, with 28% ranking it number one compared to only 9% of USA experts. Processing regulations ranked consistently low for both groups, with more European experts (35%) than USA experts (23%) designating it as the lowest priority (number 5).
-
-<div style="text-align: center; margin-bottom: 40px;">
-    <img src="Figure11.png" alt="Figure 11. Wave 5 (September 2024) Ranking of Approaches to Protecting People's Digital Privacy in Europe" style="display: block; width: 100%; max-width: 75%; margin: 60px auto 0;">
-    <p style="font-weight: bold;">Figure 11. Wave 5 (September 2024) Ranking of Approaches to Protecting People's Digital Privacy in Europe</p>
-</div>
-
-<div style="text-align: center; margin-bottom: 40px;">
-    <img src="Figure12.png" alt="Figure 12. Wave 5 (September 2024) Ranking of Approaches to Protecting People's Digital Privacy in the USA" style="display: block; width: 100%; max-width: 75%; margin: 60px auto 0;">
-    <p style="font-weight: bold;">Figure 12. Wave 5 (September 2024) Ranking of Approaches to Protecting People's Digital Privacy in the USA</p>
-</div>
-
-<div style="text-align: center; margin-bottom: 40px;">
-    <img src="Figure13.png" alt="Figure 13. Wave 2 (August 2023) Ranking of Approaches to Protecting People's Digital Privacy in Europe" style="display: block; width: 100%; max-width: 75%; margin: 60px auto 0;">
-    <p style="font-weight: bold;">Figure 13. Wave 2 (August 2023) Ranking of Approaches to Protecting People's Digital Privacy in Europe</p>
-</div>
-
-<div style="text-align: center; margin-bottom: 40px;">
-    <img src="Figure14.png" alt="Figure 14. Wave 2 (August 2023) Ranking of Approaches to Protecting People's Digital Privacy in the USA" style="display: block; width: 100%; max-width: 75%; margin: 60px auto 0;">
-    <p style="font-weight: bold;">Figure 14. Wave 2 (August 2023) Ranking of Approaches to Protecting People's Digital Privacy in the USA</p>
-</div>
-
-**3.11 Impact of the EU AI Act on AI innovation**
-
-Proposed by the European Unit, the EU AI Act <a href="https://artificialintelligenceact.eu/">EU AI Act</a> is the world’s first comprehensive attempt to regulate AI at establishing guidelines and restrictions on the development, deployment, and use of artificial intelligence within the EU.
-
-The results indicate varied perceptions between Europe and the USA on the EU AI Act's impact on innovation. In Europe, opinions are relatively balanced, with 36% believing it will neither enable nor hinder AI innovation, while 30% feel it may hinder innovation, and 18% think it will enable it. In contrast, the USA shows a stronger inclination towards skepticism, with 41% of respondents suggesting the Act is more likely to hinder innovation, and only 5% seeing it as potentially enabling. Additionally, a notable 23% in the USA and 16% in Europe responded with "don't know," reflecting some uncertainty in both regions regarding the Act's potential outcomes. This contrast highlights regional differences in attitudes towards regulatory impacts on AI progress.
-
-<div style="text-align: center; margin-bottom: 40px;">
-    <img src="Figure15.png" alt="Figure 15. Impact of the European Artificial Intelligence Act on AI innovation" style="display: block; width: 100%; max-width: 75%; margin: 60px auto 0;">
-    <p style="font-weight: bold;">Figure 15. Impact of the European Artificial Intelligence Act on AI innovation</p>
-</div>
-{% end %}
-
-{{ anchor(title="Conclusions")}}
-{% block_1c_nopad(title="4 Conclusions and Recommendations" bg="white") %}
-
-The fifth wave of the Transatlantic Privacy Perceptions (TAPP) panel survey highlights significant insights into the current state of digital privacy laws and practices between the USA and Europe. According to the survey, European privacy laws are increasingly seen as favoring individual users, while in the USA, privacy laws are largely perceived as favoring businesses. This divergence underscores the differing approaches to privacy regulation on either side of the Atlantic. In the USA, there is a growing perception that privacy laws encourage innovation, reflecting a positive shift towards recognizing the benefits of privacy regulations in fostering technological advancements. In contrast, this perception has slightly declined in Europe, indicating a more balanced view. European privacy laws continue to receive more favorable perceptions from the TAPP panelists, although optimism about future advancements has declined. On the other hand, negative views on current privacy laws persist in the USA, but there is a slight increase in optimism about future improvements. This suggests a cautious yet hopeful outlook towards the evolution of privacy regulations.
-The survey indicates that enforcing rules on data processing, storage, and sharing is the top priority for protecting digital privacy in Europe. By comparison, USA experts prioritize giving individuals control over their data. European experts, however, favored technology-based solutions. Processing regulations ranked consistently low for both groups, with more European experts than USA experts designating it as the lowest priority. These findings highlight regional preferences and evolving priorities to develop more effective and comprehensive digital privacy strategies.
+A minority of Europeans were worried about data restrictions impacting their work, their national
+economies, or the practice of science. This contrasted with US experts, large majorities of whom
+worried that restricted data flows would negatively impact both the national economy and the conduct
+of science.
 
 {% end %}
-
