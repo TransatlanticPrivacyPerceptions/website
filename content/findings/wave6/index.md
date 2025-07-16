@@ -165,7 +165,7 @@ about access to proprietary or industry data.
 (data_influence_org)*
 
 <div style="text-align: center; margin-bottom: 40px;">
-    <img src="tab1.png" alt="Figure 1. Respondents composition by sector" style="display: block; width: 100%; max-width: 75%; margin: 60px auto 0;">
+    <img src="fig4.png" alt="Figure 1. Respondents composition by sector" style="display: block; width: 100%; max-width: 75%; margin: 60px auto 0;">
     <p style="font-weight: bold;">Figure 4. Perception of personal influence in the development of data policies at organizational level</p>
 </div>
 
