@@ -26,7 +26,7 @@ placeholder
                     <path d="M11.5818 0.368914L-0.000976562 12.0476L1.93586 14.0005L13.5186 2.32179L11.5818 0.368914Z" fill="#071A2D"/>
                 </svg>
             </span>
-            <a href="https://github.com/FelixHenninger/tapp/blob/main/content/findings/wave5/Wave%205%20Data%20Report.pdf" download class="text-blue-500">
+            <a href="Wave 5 Data Report.pdf" download class="text-blue-500">
                 Download here (PDF)
             </a>
         </div>
