@@ -127,7 +127,7 @@ organization has changed how it protects data in the past 1-2 years.
 nationally? (org_sharing and org_sharing_natl combined)*
 
 <div style="text-align: center; margin-bottom: 40px;">
-    <img src="fig2.jpeg" alt="Figure 1. Respondents composition by sector" style="display: block; width: 100%; max-width: 75%; margin: 60px auto 0;">
+    <img src="fig2.png" alt="Figure 1. Respondents composition by sector" style="display: block; width: 100%; max-width: 75%; margin: 60px auto 0;">
     <p style="font-weight: bold;">Figure 2. Perception of organizational change in national data sharing in the last 1-2 years</p>
 </div>
 
@@ -173,7 +173,7 @@ about access to proprietary or industry data.
 (AI_influence_org)*
 
 <div style="text-align: center; margin-bottom: 40px;">
-    <img src="fig5.jpeg" alt="Figure 1. Respondents composition by sector" style="display: block; width: 100%; max-width: 75%; margin: 60px auto 0;">
+    <img src="fig5.png" alt="Figure 1. Respondents composition by sector" style="display: block; width: 100%; max-width: 75%; margin: 60px auto 0;">
     <p style="font-weight: bold;">Figure 5. Perception of personal influence in the development of AI policies at organizational level</p>
 </div>
 
@@ -196,7 +196,7 @@ were evenly split on whether they impacted AI policies in their organizations
 (AI_influence_policy)*
 
 <div style="text-align: center; margin-bottom: 40px;">
-    <img src="fig7.jpeg" alt="Figure 1. Respondents composition by sector" style="display: block; width: 100%; max-width: 75%; margin: 60px auto 0;">
+    <img src="fig7.png" alt="Figure 1. Respondents composition by sector" style="display: block; width: 100%; max-width: 75%; margin: 60px auto 0;">
     <p style="font-weight: bold;">Figure 7. Perception of personal influence in the development of AI policies at national policy level</p>
 </div>
 
@@ -218,7 +218,7 @@ data or AI policies at the national level.
 like you? (self_manipulation)*
 
 <div style="text-align: center; margin-bottom: 40px;">
-    <img src="fig9.jpeg" alt="Figure 1. Respondents composition by sector" style="display: block; width: 100%; max-width: 75%; margin: 60px auto 0;">
+    <img src="fig9.png" alt="Figure 1. Respondents composition by sector" style="display: block; width: 100%; max-width: 75%; margin: 60px auto 0;">
     <p style="font-weight: bold;">Figure 9. Concern about manipulation by adversaries or bad actors towards oneself</p>
 </div>
 
