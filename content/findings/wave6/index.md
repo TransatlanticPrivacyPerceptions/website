@@ -234,7 +234,7 @@ no impact on your work / on the national economy as a whole / on science?
 (Neg_restrictions_work, Neg_restrictions_econ, Neg_restrictions_science)*
 
 <div style="text-align: center; margin-bottom: 40px;">
-    <img src="fig10.png" alt="Figure 1. Respondents composition by sector" style="display: block; width: 100%; max-width: 75%; margin: 60px auto 0;">
+    <img src="fig10.png" alt="Figure 1. Respondents composition by sector" style="display: block; width: 600px; height: 270px; max-width: 75%; margin: 60px auto 0;">
     <p style="font-weight: bold;">Figure 10. Perception of negative impact of state or national policies that restrict data flows</p>
 </div>
 
