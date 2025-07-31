@@ -15,7 +15,7 @@
   <script
   src="https://cdn.telemetrydeck.com/websdk/telemetrydeck.min.js"
   data-app-id="E91AFE3D-63F9-434A-AF10-8A3EF9910A34"
-></script>
+  ></script>
 <script>
   window.addEventListener("DOMContentLoaded", function () {
     const appId = "E91AFE3D-63F9-434A-AF10-8A3EF9910A34";
@@ -27,10 +27,9 @@
         /\.(pdf|zip|docx?|xlsx?|pptx?|csv|mp4|mp3)$/i.test(link.href)
       ) {
         navigator.sendBeacon(
-          "https://telemetrydeck.com/api/v1/signal",
+          "https://cdn.telemetrydeck.com/websdk/telemetrydeck.min.js",
           JSON.stringify({
             appIdentifier: appId,
-            clientUserIdentifier: "anonymous-download", // optional
             signalType: "file_download",
             payload: {
               href: link.href,
