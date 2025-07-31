@@ -26,7 +26,7 @@ placeholder
                     <path d="M11.5818 0.368914L-0.000976562 12.0476L1.93586 14.0005L13.5186 2.32179L11.5818 0.368914Z" fill="#071A2D"/>
                 </svg>
             </span>
-            <a href="Wave 5 Data Report.pdf" download class="text-blue-500">
+            <a href="Wave 5 Data Report.pdf" download class="download-link">
                 Download here (PDF)
             </a>
         </div>

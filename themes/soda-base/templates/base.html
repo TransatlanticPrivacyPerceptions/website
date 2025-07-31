@@ -17,30 +17,17 @@
   data-app-id="E91AFE3D-63F9-434A-AF10-8A3EF9910A34"
   ></script>
 <script>
-  window.addEventListener("DOMContentLoaded", function () {
-    const appId = "E91AFE3D-63F9-434A-AF10-8A3EF9910A34";
-
-    document.addEventListener("click", function (e) {
-      const link = e.target.closest("a");
-      if (
-        link &&
-        /\.(pdf|zip|docx?|xlsx?|pptx?|csv|mp4|mp3)$/i.test(link.href)
-      ) {
-        navigator.sendBeacon(
-          "https://cdn.telemetrydeck.com/websdk/telemetrydeck.min.js",
-          JSON.stringify({
-            appIdentifier: appId,
-            signalType: "file_download",
-            payload: {
-              href: link.href,
-              filename: link.href.split("/").pop(),
-              page: window.location.pathname,
-            },
-          })
-        );
-      }
+  src="https://cdn.telemetrydeck.com/websdk/telemetrydeck.min.js"
+  TelemetryDeck.init("E91AFE3D-63F9-434A-AF10-8A3EF9910A34");
+  document.querySelectorAll(".download-link").forEach(link => {
+      link.addEventListener("click", function () {
+        TelemetryDeck.sendSignal("file.download", {
+          filename: link.dataset.filename,
+          sourcePage: window.location.pathname,
+          timestamp: new Date().toISOString()
+        });
+      });
     });
-  });
 </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
