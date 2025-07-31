@@ -12,29 +12,36 @@
       {% endif -%}
     {% endblock %}
   </title>
-  <script>
-  (function(){
-    let script = document.createElement('script');
-    script.src = 'https://cdn.telemetrydeck.com/websdk/telemetrydeck.min.js';
-    script.onload = () => {
-      telemetrydeck.init({
-        appIdentifier: 'E91AFE3D-63F9-434A-AF10-8A3EF9910A34',
-      });
+  <script
+  src="https://cdn.telemetrydeck.com/websdk/telemetrydeck.min.js"
+  data-app-id="E91AFE3D-63F9-434A-AF10-8A3EF9910A34"
+></script>
+<script>
+  window.addEventListener("DOMContentLoaded", function () {
+    const appId = "E91AFE3D-63F9-434A-AF10-8A3EF9910A34";
 
-      // Auto-track file downloads
-      document.addEventListener('click', function(e) {
-        const link = e.target.closest('a');
-        if (link && link.href && /\.(pdf|zip|docx?|xlsx?|pptx?|csv|mp4|mp3)$/.test(link.href)) {
-          telemetrydeck.signal("file_download", {
-            href: link.href,
-            filename: link.href.split('/').pop(),
-            page: window.location.pathname
-          });
-        }
-      });
-    };
-    document.head.appendChild(script);
-  })();
+    document.addEventListener("click", function (e) {
+      const link = e.target.closest("a");
+      if (
+        link &&
+        /\.(pdf|zip|docx?|xlsx?|pptx?|csv|mp4|mp3)$/i.test(link.href)
+      ) {
+        navigator.sendBeacon(
+          "https://telemetrydeck.com/api/v1/signal",
+          JSON.stringify({
+            appIdentifier: appId,
+            clientUserIdentifier: "anonymous-download", // optional
+            signalType: "file_download",
+            payload: {
+              href: link.href,
+              filename: link.href.split("/").pop(),
+              page: window.location.pathname,
+            },
+          })
+        );
+      }
+    });
+  });
 </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
