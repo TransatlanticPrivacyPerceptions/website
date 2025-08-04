@@ -16,19 +16,6 @@
   src="https://cdn.telemetrydeck.com/websdk/telemetrydeck.min.js"
   data-app-id="E91AFE3D-63F9-434A-AF10-8A3EF9910A34"
   ></script>
-<script>
-  src="https://cdn.telemetrydeck.com/websdk/telemetrydeck.min.js"
-  TelemetryDeck.init("E91AFE3D-63F9-434A-AF10-8A3EF9910A34");
-  document.querySelectorAll(".download-link").forEach(link => {
-      link.addEventListener("click", function () {
-        TelemetryDeck.sendSignal("file.download", {
-          filename: link.dataset.filename,
-          sourcePage: window.location.pathname,
-          timestamp: new Date().toISOString()
-        });
-      });
-    });
-</script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   {% include "partials/load_fonts.html" %}

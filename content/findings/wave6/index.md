@@ -26,7 +26,7 @@ placeholder
                     <path d="M11.5818 0.368914L-0.000976562 12.0476L1.93586 14.0005L13.5186 2.32179L11.5818 0.368914Z" fill="#071A2D"/>
                 </svg>
             </span>
-            <a href="w6_white_paper.pdf" download class="download-link">
+            <a href="w6_white_paper.pdf" download class="text-blue-500">
                 Download here (PDF)
             </a>
         </div>
@@ -234,7 +234,7 @@ no impact on your work / on the national economy as a whole / on science?
 (Neg_restrictions_work, Neg_restrictions_econ, Neg_restrictions_science)*
 
 <div style="text-align: center; margin-bottom: 40px;">
-    <img src="fig10.png" alt="Figure 1. Respondents composition by sector" style="display: block; width: 600px; height: 270px; max-width: 75%; margin: 60px auto 0;">
+    <img src="fig10.png" alt="Figure 1. Respondents composition by sector" style="display: block; width: 100%; max-width: 75%; margin: 60px auto 0;">
     <p style="font-weight: bold;">Figure 10. Perception of negative impact of state or national policies that restrict data flows</p>
 </div>
 
