@@ -1,69 +1,113 @@
 [[accordion]]
-visible = "Why did you ask me to be part of the panel?"
-hidden = "We, or someone who knows you professionally, thought that you would provide a unique voice in the TAPP panel!"
+type = "header"
+visible = "General Topics"
 
 [[accordion]]
-visible = "What will be done with my responses?"
-hidden = """Data collected through the TAPP panel survey is protected in line with <a href="https://www.qualtrics.com/privacy-statement/">EU GDPR</a> and by the UMD research ethics committee (IRB). In line with the open science movement, we will make selected survey data available for research purposes. No identifying information will be contained in this dataset.
-
-Data published in reports are aggregated and will not individually identify you or your responses.
-
-In line with the open science movement, we will make selected survey data available for research purposes. No identifying information will be contained in this dataset."""
+visible = "What is ASSURED?"
+hidden = "ASSURED certifies researchers as well as users and staff of Research Data Centers (RDC) by providing training for the safe and ethical use of sensitive, potentially disclosive data."
 
 [[accordion]]
-visible = "What can I do to be more involved in this project?"
-hidden = """Use our data. Submit a question or topic to ask our respondents."""
+visible = "Who is ASSURED training for?"
+hidden = """ASSURED training is designed for
+
+- researchers requiring skills to responsibly use sensitive data (e.g. researchers wishing to access sensitive data held under controlled access conditions).
+- data professionals working in Research Data Centers (RDC), Trusted Research Environments (TRE), Secure Processing Environments (SPE), etc. that want to gain acknowledgement for their expertise and to develop their careers.
+- institutions wanting to streamline the access to their sensitive data or wanting to train and develop their team."""
 
 [[accordion]]
-visible = "Who should I contact with questions about this project?"
-hidden = """To learn more about TAPP panel participation, please refer to the FAQs or <a href="mailto:irb@umd.edu">email</a>.
-If you have questions about your rights as a research participant or wish to report a research-related injury, please contact with reference to IRB No. 1934146-4:
-
-University of Maryland College Park
-Institutional Review Board Office
-1204 Marie Mount Hall
-College Park, Maryland, 20742
-E-mail: <a href="mailto:irb@umd.edu">irb@umd.edu</a>
-Telephone: +1 301-405-0678
-
-For more information regarding your rights as a research participant, please visit the <a href="https://research.umd.edu/research-resources/research-compliance/institutional-review-board-irb/research-participants">UMD IRB FAQs</a>."""
+visible = "What kind of training does the ASSURED project offer?"
+hidden = "ASSURED is a modular, interactive, online training on sensitive data, implemented in Moodle for self-learning at one’s own pace. It equips researchers and data professionals to handle sensitive data responsibly and helps institutions improve onboarding processes, user support, and staff development, aligning with the EU Data Strategy."
 
 [[accordion]]
-visible = "Who is funding this research?"
-hidden = """TAPP is supported by research grants from Meta, the U.S. Census Bureau, and the Volkswagen Foundation. Research is being conducted entirely independently of any funding sources."""
+visible = "What topics does the training cover?"
+hidden = """The training distinguishes between core modules and specialised modules.
+
+- Core modules cover essential knowledge such as data ethics, data citation, lawful data sharing, understanding data access, and how to produce non-disclosive research outputs.
+- Specialised modules provide skills for particular roles or specific applications such as conducting research in a particular secure environment or using certain data types.
+
+See the list of available modules on our e-learning platform: <a href="https://platform.assured-training.org//">https://platform.assured-training.org/</a>"""
 
 [[accordion]]
-visible = "What is a panelist?"
-hidden = """A panelist is anyone who participates in our survey and agrees to be contacted additionally throughout the year to participate in further waves."""
+visible = "Can I suggest new training topics?"
+hidden = """Yes, we continually develop and enrich training according to community needs. Contact info@assured-training.org with suggestions.
+
+- Are you an expert in a role or domain and want to contribute? Please reach out.
+- Do you offer a service and want to train users or staff? We can create a specialised module and learning pathway for your target group."""
 
 [[accordion]]
-visible = "Who can answer the questionnaire?"
-hidden = """Anyone aged 18+ living or working in countries/regions on either side of the Atlantic Ocean who is passionate and knowledgeable about digital privacy is invited to join the panel."""
+visible = "Who is responsible for the content?"
+hidden = """ASSURED’s core team is an interdisciplinary group of experts covering secure data access, data ethics and governance, statistical disclosure control, data science and survey quality, educational resources and learning environments. They coordinate and deliver training, develop content, ensure quality standards, and offer consultation.
+
+Contributors and consultors from the NFDI Consortia, the German Data Competence Centre landscape, and international institutions such as the University of West of England create and review content and assess services."""
 
 [[accordion]]
-visible = "Can I suggest a question for the next questionnaire?"
-hidden = """Of course, send us an email at <a href="mailto:info@privacyperceptions.org">info@privacyperceptions.org</a>."""
+visible = "Does ASSURED offer corporate training solutions?"
+hidden = "Yes, ASSURED is a data governance training suitable for institutions handling sensitive data. The flexible, modular approach allows a customised learning pathway tailored to your institution."
 
 [[accordion]]
-visible = "How can I use the data?"
-hidden = """We have transferred the anonymized data from our study to GESIS (Leibniz Institute for the Social Sciences), a German institute that handles social science data. <a href="https://doi.org/10.4232/1.14198/">Link to data</a>."""
+visible = "How can I book ASSURED training to train and develop my team?"
+hidden = """Please contact <a href="mailto:info@assured-training.org">info@assured-training.org</a> to book ASSURED’s services."""
+
 
 [[accordion]]
-visible = "How many questions are in the questionnaire?"
-hidden = """The number of questions varies by survey wave and questionnaire topic. Regardless of the topic, we keep the questionnaires short, so that participating takes no more than 5-10 minutes of your time."""
+type = "header"
+visible = "Using ASSURED"
 
 [[accordion]]
-visible = "How can I participate?"
-hidden = """Send us an email at <a href="mailto:info@privacyperceptions.org">info@privacyperceptions.org</a>"""
+visible = "What are the benefits of using ASSURED?"
+hidden = "ASSURED promotes FAIR practices for safe data use and sharing, supports improving security models, builds trust, and fosters career development within the research data sector."
 
 [[accordion]]
-visible = "I’ve received a TAPP invitation. Now what?"
-hidden = '''Our panel is unique in regularly bringing together the opinions of a diverse set of privacy experts from a variety of industries and countries. Participating gives you the opportunity to raise awareness about the privacy issues you care about and contribute to <a href="@/results/index.md"><svg width="20" height="20" style="display: inline-block; vertical-align: middle; margin-right: 5px;" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M13.0627 16.6355L11.1259 14.6987L15.9093 9.91526L11.0838 5.08986L13.0367 3.13696L19.799 9.89922L13.0627 16.6355Z" fill="#071A2D"/><path d="M17.8282 8.45024L1.37982 8.51807L1.36848 11.2685L17.8168 11.2007L17.8282 8.45024Z" fill="#071A2D"/></svg>scientific research</a>. To get started, simply click 'Start survey' in your invitation email!'''
+visible = "How do I get started?"
+hidden = """Access the e-learning platform at <a href="https://platform.assured-training.org/">https://platform.assured-training.org/</a> and log in with your credentials. A user account is typically provided by email. Start with the module 'course introduction'. For account creation, <a href="mailto:info@assured-training.org">info@assured-training.org</a>."""
 
 [[accordion]]
-visible = "What is TAPP’s privacy and data protection policy?"
-hidden = '''We take privacy and <a href="@/data_protection/index.md"><svg width="20" height="20" style="display: inline-block; vertical-align: middle; margin-right: 5px;" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M13.0627 16.6355L11.1259 14.6987L15.9093 9.91526L11.0838 5.08986L13.0367 3.13696L19.799 9.89922L13.0627 16.6355Z" fill="#071A2D"/><path d="M17.8282 8.45024L1.37982 8.51807L1.36848 11.2685L17.8168 11.2007L17.8282 8.45024Z" fill="#071A2D"/></svg>data protection</a> seriously. Below is our data protection statement. This statement is also available from within the current TAPP panel survey.'''
+visible = "How is the training structured?"
+hidden = "ASSURED is modular and tailored to your role. Core modules are mandatory and cover essential knowledge. Specialised modules are mandatory or recommended depending on required skills."
 
 [[accordion]]
-visible = "I don’t want to participate anymore. How can I leave the panel?"
-hidden = """We’re sorry to see you go! Contact us at <a href="mailto:info@privacyperceptions.org">info@privacyperceptions.org</a> to request removal from our invitation list. Please be aware that as all data is collected anonymously, we are not able to remove your individual data from previous datasets."""
+visible = "How can I enroll in a module?"
+hidden = """Self-enrollment is not yet available. You will be enrolled in courses defined by your institution. For additional modules, contact <a href="mailto:info@assured-training.org">info@assured-training.org</a>."""
+
+[[accordion]]
+visible = "How long does it take to complete a module?"
+hidden = "Each module is a microlearning unit of 5–15 minutes plus a short video (~10 minutes) and quick assessment (5–10 minutes)."
+
+[[accordion]]
+visible = "Are there deadlines for completing the training?"
+hidden = "ASSURED training is self-paced. Deadlines may be set by your institution or yourself depending on objectives."
+
+[[accordion]]
+visible = "What kind of support is available if I have questions about the module content?"
+hidden = """Use the messaging function within the platform or email <a href="mailto:info@assured-training.org">info@assured-training.org</a>."""
+
+[[accordion]]
+visible = "What if I encounter technical issues during the training?"
+hidden = """Report issues to <a href="mailto:info@assured-training.org">info@assured-training.org</a> with a clear description, steps to reproduce, error messages, and screenshots if possible."""
+
+[[accordion]]
+visible = "How can I provide feedback on the service?"
+hidden = """Send feedback via <a href="mailto:info@assured-training.org">info@assured-training.org</a> or use the feedback survey on the <a href="https://platform.assured-training.org/">Home</a> page of the learning platform."""
+
+
+[[accordion]]
+type = "header"
+visible = "Data Security and Protection"
+
+[[accordion]]
+visible = "How does ASSURED protect my personal information?"
+hidden = """Website: see <a href="https://assured-training.org/privacy/">https://assured-training.org/privacy/</a>
+
+Email: Messages to <a href="mailto:info@assured-training.org">info@assured-training.org</a> are stored within Roundcube Webmail (<a href="https://roundcube.net/about/">https://roundcube.net/about/</a>) under Article 6 (1) f) GDPR.
+
+E-learning platform: Hosted by eLeDia (Germany). ASSURED uses Moodle’s privacy features (<a href="https://moodle.com/privacy-notice/">https://moodle.com/privacy-notice/</a>), secure passwords, multi-factor authentication, and role-based access control. Administrators monitor activity to detect and prevent breaches.
+
+Learn more here: <a href="https://assured-training.org/privacy/">https://assured-training.org/privacy/</a>."""
+
+[[accordion]]
+visible = "What is ASSURED’s privacy policy?"
+hidden = """Learn how ASSURED safeguards your personal data here: [link to ASSURED’s data protection notice]. Moodle privacy notice: <a href="https://moodle.com/de/datenschutzerklarung/">https://moodle.com/de/datenschutzerklarung/</a>"""
+
+[[accordion]]
+visible = "Is my learning progress and data kept private?"
+hidden = """ASSURED uses an Authorisation and Authentication Infrastructure (AAI) to control and regulate data access and sharing. See <a href="https://assured-training.org/imprint/">https://assured-training.org/imprint/</a> for details."""
