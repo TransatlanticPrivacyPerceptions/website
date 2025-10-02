@@ -87,3 +87,9 @@ name = "Fedor Miasnikov"
 role = "Team"
 institution = "LMU Munich"
 image = "photos/Fedor.jpg"
+
+[[person]]
+name = "Danylo Syrota"
+role = "Team"
+institution = "LMU Munich"
+image = "photos/Danylo.jpg"
