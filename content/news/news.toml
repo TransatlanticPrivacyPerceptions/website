@@ -19,14 +19,14 @@ https://lnkd.in/dbwsV7hk
 View original Post on LinkedIn: [Link](https://www.linkedin.com/posts/tapp-insights_privacy-ai-aigovernance-activity-7383531981730471938-W5X2?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAaJtW4B5sMrKLUGLk3GWKH32S1BNyfvz_M)
 """
 date = "2025-10-13"
-by = "Olga Kononykhina"
+# by = "Olga Kononykhina"
 pin = "true"
 
 [[news]]
 anews = """
 Two weeks ago, we launched Wave 7 of the TAPP survey to understand how privacy landscape changed in the part year.
 
-In addition, for the first time, we're asking you to rate hashtag#OpenAI, hashtag#Google, hashtag#xAI, hashtag#DeepSeek, and other AI companies on their data protection practices; and whether sensitive personal data should ever be used for model training.
+In addition, for the first time, we're asking you to rate OpenAI, Google, xAI, #DeepSeek, and other AI companies on their data protection practices; and whether sensitive personal data should ever be used for model training.
 
 We don't have enough data yet. Your input creates the baseline for how privacy professionals view AI companies' data protection. This benchmark doesn't currently exist and we can establish and monitor it together. 
 
@@ -38,8 +38,8 @@ https://lnkd.in/dbwsV7hk
 
 View original Post on LinkedIn: [Link](https://www.linkedin.com/posts/tapp-insights_openai-google-xai-activity-7380988171800444928-x5ha?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAaJtW4B5sMrKLUGLk3GWKH32S1BNyfvz_M)
 """
-date = "2025-10-1"
-by = "Olga Kononykhina"
+date = "2025-10-01"
+# by = "Olga Kononykhina"
 pin = "true"
 
 
@@ -71,33 +71,9 @@ Why might the AI Act enable innovation? TAPP experts say:
 
 View original Post on LinkedIn: [Link](https://www.linkedin.com/posts/activity-7267563680718884865-RcK3?utm_source=share&utm_medium=member_desktop)
 """
-date = "2021-07-03"
-by = "Olga Kononykhina"
+date = "2024-10-03"
+# by = "Olga Kononykhina"
 pin = "false"
-
-[[news]]
-anews = """
-Are LLMs handling sensitive data appropriately? Do current laws encourage or discourage innovation? How do you rate Big Tech's privacy performance? What about government agencies?
-
-These are just some of the questions we're asking privacy professionals in TAPP Wave 7: our ongoing effort to track expert opinion on digital privacy.
-
-Whether you work in policy, law, tech, academia, or advocacy, your perspective shapes our understanding of where privacy protection stands today.
-
-⏱️ 5 minutes
- 🌍 Global expert panel
- ⏰ Final call—survey closes 15.10.2025
-
-👉 If you’ve participated before, your reminder is already in your inbox—please use that link so we can track changes over time.
- 👉 If you’re new to TAPP, please join through the link below.
-https://lnkd.in/dbwsV7hk
-
-🎓 TAPP is an academic research project at the Universities of Maryland (UMD) 🇺🇸 and Munich (LMU)
-
-View original Post on LinkedIn: [Link](https://www.linkedin.com/posts/tapp-insights_privacy-ai-aigovernance-activity-7383531981730471938-W5X2?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAaJtW4B5sMrKLUGLk3GWKH32S1BNyfvz_M)
-"""
-date = "2025-10-13"
-by = "Olga Kononykhina"
-pin = "true"
 
 [[news]]
 anews = """
@@ -108,7 +84,7 @@ We are now accepting proposals for questions to be included in our next waves. I
 Your input is valuable in shaping discussion about AI and digital privacy.
 """
 date = "2024-12-10"
-pin = "true"
+pin = "false"
 
 
 
@@ -130,7 +106,7 @@ DOI: 10.4232/1.14198
 Access the data and more at GESIS here: [https://search.gesis.org/research_data/ZA8757](https://search.gesis.org/research_data/ZA8757)
 """
 date = "2024-11-25"
-pin = "true"
+pin = "false"
 
 [[news]]
 anews = """
@@ -151,7 +127,7 @@ More information can be found at [privacyperceptions.org](https://privacypercept
 View original Post on LinkedIn: [Link](https://www.linkedin.com/posts/tapp-insights_privacy-laws-favor-people-or-business-activity-7254778510274129920-5wz2?utm_source=share&utm_medium=member_desktop)
 """
 date = "2021-07-03"
-pin = "true"
+pin = "false"
 
 [[news]]
 anews = """
@@ -253,7 +229,7 @@ The survey will take approximately 5-7 minutes and we will ask you about the com
 View original Post on LinkedIn: [Link](https://www.linkedin.com/posts/sonja-kellner_ai-privacy-euaiact-activity-7236341354874699776-q26T?utm_source=share&utm_medium=member_desktop)
 """
 date = "2021-07-03"
-by = "Sonja Kellner"
+# by = "Sonja Kellner"
 pin = "false"
 
 [[news]]
@@ -291,7 +267,7 @@ These findings highlight the growing awareness and commitment toward responsible
 View original Post on LinkedIn: [Link](https://www.linkedin.com/posts/sonja-kellner_ai-responsible-guidelines-activity-7218550915052539904-Ej70?utm_source=share&utm_medium=member_desktop)
 """
 date = "2021-07-03"
-by = "Sonja Kellner"
+# by = "Sonja Kellner"
 pin = "false"
 
 [[news]]
