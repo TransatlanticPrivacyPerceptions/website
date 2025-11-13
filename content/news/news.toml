@@ -1,13 +1,5 @@
-[[news]]
-anews = """
-📣 𝗝𝗼𝗶𝗻 𝗮𝗻𝗱 𝗹𝗲𝘁'𝘀 𝗳𝘂𝗲𝗹 𝘁𝗵𝗲 𝗰𝗼𝗻𝘃𝗲𝗿𝘀𝗮𝘁𝗶𝗼𝗻 𝘄𝗶𝘁𝗵 𝗶𝗻𝗳𝗼𝗿𝗺𝗲𝗱 𝗶𝗻𝘀𝗶𝗴𝗵𝘁𝘀!
 
-We are now accepting proposals for questions to be included in our next waves. If you have a question you'd like to propose or a topic you think TAPP should cover, please send your suggestions and ideas to "<a href='mailto:info@privacyperceptions.org'>info@privacyperceptions.org</a>".
 
-Your input is valuable in shaping discussion about AI and digital privacy.
-"""
-date = "2024-12-10"
-pin = "true"
 
 [[news]]
 anews = """
@@ -40,6 +32,43 @@ View original Post on LinkedIn: [Link](https://www.linkedin.com/posts/activity-7
 date = "2021-07-03"
 by = "Olga Kononykhina"
 pin = "true"
+
+[[news]]
+anews = """
+Are LLMs handling sensitive data appropriately? Do current laws encourage or discourage innovation? How do you rate Big Tech's privacy performance? What about government agencies?
+
+These are just some of the questions we're asking privacy professionals in TAPP Wave 7: our ongoing effort to track expert opinion on digital privacy.
+
+Whether you work in policy, law, tech, academia, or advocacy, your perspective shapes our understanding of where privacy protection stands today.
+
+⏱️ 5 minutes
+ 🌍 Global expert panel
+ ⏰ Final call—survey closes 15.10.2025
+
+👉 If you’ve participated before, your reminder is already in your inbox—please use that link so we can track changes over time.
+ 👉 If you’re new to TAPP, please join through the link below.
+https://lnkd.in/dbwsV7hk
+
+🎓 TAPP is an academic research project at the Universities of Maryland (UMD) 🇺🇸 and Munich (LMU)
+
+View original Post on LinkedIn: [Link](https://www.linkedin.com/posts/tapp-insights_privacy-ai-aigovernance-activity-7383531981730471938-W5X2?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAaJtW4B5sMrKLUGLk3GWKH32S1BNyfvz_M)
+"""
+date = "2025-10-13"
+by = "Olga Kononykhina"
+pin = "true"
+
+[[news]]
+anews = """
+📣 𝗝𝗼𝗶𝗻 𝗮𝗻𝗱 𝗹𝗲𝘁'𝘀 𝗳𝘂𝗲𝗹 𝘁𝗵𝗲 𝗰𝗼𝗻𝘃𝗲𝗿𝘀𝗮𝘁𝗶𝗼𝗻 𝘄𝗶𝘁𝗵 𝗶𝗻𝗳𝗼𝗿𝗺𝗲𝗱 𝗶𝗻𝘀𝗶𝗴𝗵𝘁𝘀!
+
+We are now accepting proposals for questions to be included in our next waves. If you have a question you'd like to propose or a topic you think TAPP should cover, please send your suggestions and ideas to "<a href='mailto:info@privacyperceptions.org'>info@privacyperceptions.org</a>".
+
+Your input is valuable in shaping discussion about AI and digital privacy.
+"""
+date = "2024-12-10"
+pin = "true"
+
+
 
 [[news]]
 anews = """
