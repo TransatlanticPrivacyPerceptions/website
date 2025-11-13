@@ -31,7 +31,7 @@ View original Post on LinkedIn: [Link](https://www.linkedin.com/posts/activity-7
 """
 date = "2021-07-03"
 by = "Olga Kononykhina"
-pin = "true"
+pin = "false"
 
 [[news]]
 anews = """
