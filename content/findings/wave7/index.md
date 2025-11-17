@@ -69,9 +69,11 @@ In the US, a stable and large majority (92% in 2025) continue to report that pri
 Perceptions of enforcement also diverged further in 2025. In Europe, around 70% of respondents consistently view enforcement as somewhat or mostly effective. In the US, the share expressing confidence in enforcement declined, with two-thirds reporting that practices are enforced only a little or not at all.
 
 **Preferences for Policymaking Levels Differ**
+
 In 2025, 65% of US respondents preferred a combined federal-and-state approach to privacy policymaking, reversing the federal-only preference recorded in 2024. In Europe, views have remained stable, with 65% favoring EU-level policymaking only and no support for a member-state-only approach.
 
 **Organizations Viewed as Underperforming on Privacy**
+
 Organizational privacy practices continue to receive low ratings in both regions. In 2025, 92% of US and 79% of European respondents rated current practices as poor or fair. Looking ahead, pessimism rose in the US (73%), while Europe saw a shift toward neutral expectations. Public agencies received the highest privacy protection ratings, followed by traditional private companies, with private AI firms receiving the lowest ratings.
 {% end %}
 
@@ -118,6 +120,7 @@ In terms of professional background, the majority (56%) are from academia with a
 {{ anchor(title="Results")}}
 {% block_1c_nopad(title="3 Results" bg="grey") %}
 **3.1 Balance of interest in digital privacy laws**
+
 The comparison of interest in digital privacy laws reveals relevant regional differences. In Europe, public perception has shown significant fluctuation (Figure 3). While the percentage of respondents believing laws favor individual users increased from 45% in 2023 to 75% in 2024, it fell again to 46% in 2025, returning to the Wave 2 (August 2023) level. 
 
 Conversely, in the US, the perception that laws favor businesses remains overwhelmingly high and consistent, at 92% in 2023, 86% in 2024, and 85% in 2025. This underscores the divergent perspectives on privacy laws on either side of the Atlantic. While sentiment in the US remains stable in its view of a business-friendly legal environment - despite the introduction of state-level consumer privacy protection - the proportion of Europeans who believe laws favor individual users has remained substantially higher than in the US across all three years (Figure 3).
