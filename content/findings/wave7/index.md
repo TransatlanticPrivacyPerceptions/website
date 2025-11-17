@@ -55,12 +55,15 @@ placeholder
 Wave 7 of the Transatlantic Privacy Perceptions (TAPP) Panel, conducted from September 2025 to October 2025, presents insights from 57 privacy experts across Europe and the United States on the current state of digital privacy laws, their enforcement, and organizational practices. The results point to a growing divergence in views across the Atlantic, particularly regarding regulatory effectiveness, innovation, and expectations for future developments.
 
 **Transatlantic Gap Continues to Widen**
+
 Perceptions of digital privacy laws differ between the United States and Europe. In 2025, 96% of US respondents rated the current state of privacy laws as poor or fair, and optimism for improvement dropped to 4%, down from 45% in 2024. In Europe, 58% rated current privacy laws as good or excellent in 2025. However, expectations for future progress have declined, with more respondents shifting toward a neutral or cautious outlook.
 
 **Regulation and Innovation: Opposing Views**
+
 European experts increasingly view privacy regulation as a driver of innovation in privacy-preserving technologies. In 2025, 58% reported that laws encourage such innovation, up from 41% in 2024. The trend in the US moved in the opposite direction: only 24% expressed this view in 2025, down from 50% in 2024, with most respondents selecting a neutral response regarding the effect of regulation on innovation.
 
 **Scope and Enforcement Remain Areas of Debate**
+
 In the US, a stable and large majority (92% in 2025) continue to report that privacy laws cover fewer areas than needed. European responses are more varied. While the most common view remains that laws cover fewer areas than needed, the share of respondents perceiving them as too broad has increased over time.
 
 Perceptions of enforcement also diverged further in 2025. In Europe, around 70% of respondents consistently view enforcement as somewhat or mostly effective. In the US, the share expressing confidence in enforcement declined, with two-thirds reporting that practices are enforced only a little or not at all.
@@ -205,8 +208,7 @@ In the US, 92% of respondents rated the current state of organizational digital 
 
 Regardless of region, public organizations such as country statistical agencies, tax authority, and social security authority are better evaluated according to their privacy protection performance than private companies. Here, a differentiation can be made between private companies and private AI companies, which are mainly known for their AI products.
  
-The ratings between respondents for Europe and the US show similar results across all the depicted sectors, with higher ratings for government agencies. In Europe, 22% of the respondents evaluate the privacy protection performance of public institutions as excellent, compared to  19% for the US (Figure 12a). On the other hand, 54% of the respondents from Europe and 54% from the US evaluate the privacy protection performance of private organizations as poor. Similarly, 76% of respondents from Europe and 81% from the US evaluate the privacy performance of private AI organizations as poor. 
-
+The ratings between respondents for Europe and the US show similar results across all the depicted sectors, with higher ratings for government agencies. In Europe, 22% of the respondents evaluate the privacy protection performance of public institutions as excellent, compared to  19% for the US (Figure 12a). On the other hand, 54% of the respondents from Europe and 54% from the US evaluate the privacy protection performance of private organizations as poor. Similarly, 76% of respondents from Europe and 81% from the US evaluate the privacy performance of private AI organizations as poor.
 
 <div style="text-align: center; margin-bottom: 40px;">
     <img src="fig12a.png" alt="Figure 12a. Organizations' privacy protection performance ratings - September 2025" style="display: block; width: 100%; max-width: 75%; margin: 60px auto 0;">
