@@ -54,9 +54,9 @@
     <h1 class="{{header_size}} !font-normal  pt-8 pb-8 px-6 md:px-16 lg:px-24 xl:px-24 m-0">{% if page %}{{ page.title | linebreaksbr | safe  }}{% elif section %}{{ section.title | linebreaksbr | safe  }}{% endif %}</h1>
     {% endif %}
     {% if sub_nav %}
-        <div class="ml-auto pt-8 pb-8 px-6 md:px-16 lg:px-24 xl:px-24 flex gap-x-12 flex-wrap justify-end">
+        <div class="w-full px-4 sm:px-6 md:px-16 lg:px-24 xl:px-24 flex flex-wrap gap-y-2 justify-start">
         {% for item in sub_nav %}
-       <a  class="text-base whitespace-nowrap font-semibold " href="#{{ item | slugify}}">{{ item }}</a>
+       <a  class="block text-sm sm:text-base whitespace-normal break-words font-semibold" href="#{{ item | slugify }}">{{ item }}</a>
         {% endfor %}
         </div>
     {% endif %}
