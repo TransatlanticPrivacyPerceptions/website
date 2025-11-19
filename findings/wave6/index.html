@@ -1,0 +1,727 @@
+<!doctype html>
+<html>
+<head>
+  <title>
+    Transatlantic Privacy Perceptions · 
+        Wave 6 Findings
+      
+  </title>
+  <script
+  src="https://cdn.telemetrydeck.com/websdk/telemetrydeck.min.js"
+  data-app-id="E91AFE3D-63F9-434A-AF10-8A3EF9910A34"
+  ></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https:&#x2F;&#x2F;privacyperceptions.org&#x2F;assets/fonts/assistant/assistant.css">
+<link rel="stylesheet" href="https:&#x2F;&#x2F;privacyperceptions.org&#x2F;assets/fonts/fa/css/fontawesome.css">
+<link rel="stylesheet" href="https:&#x2F;&#x2F;privacyperceptions.org&#x2F;assets/fonts/fa/css/solid.css">
+<link rel="stylesheet" href="https:&#x2F;&#x2F;privacyperceptions.org&#x2F;assets/fonts/fa/css/brands.css">
+
+  <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+<style type="text/tailwindcss">
+  html {
+  height: 100%;
+}
+
+body {
+  /* Vertical alignment of <header>, <main> and <footer> */
+  height: 100%;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+.prose {
+  @apply text-base;
+}
+
+.container-width {
+  @apply w-full;
+}
+.container {
+  @apply container-width px-6 py-10 lg:px-8;
+}
+.container-mini {
+  @apply mx-auto w-full max-w-3xl;
+
+  .container-escape {
+    @apply lg:-ml-40 lg:-mr-40;
+  }
+}
+
+header {
+  font-weight: 500;
+}
+
+.prose {
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
+  }
+}
+h1{
+    @apply text-xl font-semibold my-6;
+}
+a,button{
+    transition:color 0.5s ease;
+}
+main a{
+    position:relative;
+    text-decoration: underline;
+    text-underline-offset: 8px;
+    text-decoration-thickness: 1px;
+}
+
+
+li{
+    position:relative;
+    margin-left:28px;
+    }
+li::before{
+    content:'\2022';
+    position:absolute;
+    left:-28px;
+    line-height:1.6;
+    
+}
+main > *{
+    @apply py-24 px-6 md:px-16 lg:px-24 xl:px-24;
+}
+/*.padding-all{
+@apply px-6 md:px-16 lg:px-24 xl:px-24;
+}*/
+::selection{
+   @apply bg-accent;
+   @apply text-primary;
+}
+
+ p{
+   @apply mb-4 py-0 !important; 
+   @apply max-w-[1024px];
+}
+/*h3:after{
+    content:"";
+    position:absolute;
+    background: white;
+    display: block;
+    top:0;
+    bottom:0;
+    width:100vw;
+    left:0;
+    
+    z-index:0;
+    
+}
+h3{
+    z-index:1;
+}*/
+[popover]:not(:popover-open):not(dialog[open]) > div{
+    transition:all 0.6s ease;
+    transform: translateY(100%);
+ 
+}
+[popover] > div{
+    transition:all 0.6s ease;
+    transform: translateY(0%);
+ 
+}
+
+.inline-arrow {
+  width: 18px;
+  height: 18px;
+  display: inline-block;
+  vertical-align: middle;
+  text-decoration: none;
+}
+
+</style>
+<script>
+  /** @type {import('tailwindcss').Config} */
+tailwind.config = {
+  theme: {
+    fontSize: {
+      xs:'0.75rem',
+      sm: '1rem',
+      base: '1.5rem', 
+      lg: '2rem',
+      xl: '2.5rem',
+      '2xl': '3rem',
+      '3xl': '4rem',
+      '4xl':'6rem',
+    },
+    screens: {
+      'sm': '640px',
+      'md': '768px',
+      'lg': '1024px',
+      'xl': '1280px',
+      'xxl': '1600px',
+      
+    },
+    extend: {
+      fontFamily: {
+        sans: ['"Assistant Variable"'],
+      },
+      colors: {
+        primary: '#071A2D',
+        secondary:'#FFD469',
+        grey:'#F5F5F5',
+        accent:'#FFD469',
+      },
+    },
+  },
+}
+
+</script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="https:&#x2F;&#x2F;privacyperceptions.org&#x2F;js/lettershuffler.js"></script>
+<style>
+    .test{
+        display:inline-block;
+    }
+    .test span{
+        display:inline-block;
+        transform:rotateX(0deg);
+        transition:all 0.2s ease;
+        color:rgb(255 212 105);
+    }
+     .test span.active{
+        transform:rotateX(90deg);
+        
+    }
+</style>
+
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+
+</head>
+<body class="!block">
+  
+  <header class="fixed w-full z-10 top-0">
+    
+    <nav class="main-nav mx-auto flex absolute container-width  justify-between  pt-8 lg:pt-10 pb-6  px-6 md:px-16 lg:px-24 xl:px-24" aria-label="Global">
+        <a href="https:&#x2F;&#x2F;privacyperceptions.org&#x2F;" class="-m-1.5 lg:-ml-9 p-1.5">
+            <span class="sr-only">TAPP panel logo</span>
+            
+            <span class=" inline-block">
+                <img class="inline-block h-8 mb-2" src="https://privacyperceptions.org/assets/tapp_logo_white_1.svg">
+                <img class="inline-block h-8 mb-2" src="https://privacyperceptions.org/assets/tapp_logo_white_2.svg">
+                <img class="inline-block h-8 mb-2" src="https://privacyperceptions.org/assets/tapp_logo_white_3.svg">
+            </span> 
+            
+        </a>
+        <div class="flex lg:hidden">
+            <button type="button" popovertarget="global-menu" class="-m-2.5 text-base font-semibold inline-flex items-center justify-center rounded-md p-2.5 text-white hover:text-primary">
+                <span class="sr-only">Open main menu</span>
+                MENU
+                <!--svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                </svg-->
+            </button>
+        </div>
+        <div class="hidden lg:flex lg:gap-x-12">
+            
+            
+            
+            <a href="https://privacyperceptions.org/about/" class="text-base leading-7 font-semibold text-white hover:text-primary">
+                About
+            </a>
+            
+            
+            
+            
+            
+            
+            <a href="https://privacyperceptions.org/results/" class="text-base leading-7 font-semibold text-white hover:text-primary">
+                DataViz
+            </a>
+            
+            
+            <a href="https://privacyperceptions.org/findings/" class="text-base leading-7 font-semibold text-white hover:text-primary">
+                Findings
+            </a>
+            
+            
+            <a href="https://privacyperceptions.org/people/" class="text-base leading-7 font-semibold text-white hover:text-primary">
+                People
+            </a>
+            
+            
+            <a href="https://privacyperceptions.org/faq/" class="text-base leading-7 font-semibold text-white hover:text-primary">
+                FAQ
+            </a>
+            
+            
+            
+            
+            
+            
+            <a href="https:&#x2F;&#x2F;privacyperceptions.org&#x2F;/news" class="text-base leading-7 font-semibold text-white hover:text-primary">News</a>
+        </div>
+    </nav>
+    <!-- Mobile menu, show/hide based on menu open state. -->
+    <div popover id="global-menu" class="bg-transparent" role="dialog" aria-modal="true">
+        <div class="fixed flex flex-col items-center justify-center text-center inset-y-0 right-0 z-10 w-full overflow-y-auto bg-grey px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+            <div class="absolute top-4 right-4">
+
+                <button type="button" popovertarget="global-menu" class="-m-2.5 text-base font-semibold rounded-md p-2.5 text-gray-700">
+                    <span class="sr-only">Close menu</span>
+                    <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                </button>
+            </div>
+            <div class="mt-6 flow-root">
+                <div class="-my-6 divide-y divide-gray-500/10">
+                    <div class="py-6">
+                        
+                        
+                        
+                        
+                        <a href="https://privacyperceptions.org/about/" class="-mx-3 block rounded-lg  px-4 py-3 text-base leading-7 font-semibold text-gray-900 hover:text-accent">
+                            About
+                        </a>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        <a href="https://privacyperceptions.org/results/" class="-mx-3 block rounded-lg  px-4 py-3 text-base leading-7 font-semibold text-gray-900 hover:text-accent">
+                            DataViz
+                        </a>
+                        
+                        
+                        
+                        
+                        <a href="https://privacyperceptions.org/findings/" class="-mx-3 block rounded-lg  px-4 py-3 text-base leading-7 font-semibold text-gray-900 hover:text-accent">
+                            Findings
+                        </a>
+                        
+                        
+                        
+                        
+                        <a href="https://privacyperceptions.org/people/" class="-mx-3 block rounded-lg  px-4 py-3 text-base leading-7 font-semibold text-gray-900 hover:text-accent">
+                            People
+                        </a>
+                        
+                        
+                        
+                        
+                        <a href="https://privacyperceptions.org/faq/" class="-mx-3 block rounded-lg  px-4 py-3 text-base leading-7 font-semibold text-gray-900 hover:text-accent">
+                            FAQ
+                        </a>
+                        
+                        
+                        
+                        
+                        
+                        
+                        <a href="https:&#x2F;&#x2F;privacyperceptions.org&#x2F;/news" class="-mx-3 block rounded-lg  px-4 py-3 text-base leading-7 font-semibold   text-gray-900 hover:text-accent">News</a>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<div id="float-nav" class="over z-30 fixed w-full top-0 -translate-y-full bg-white transition-all duration-700">
+    <nav class=" mx-auto flex relative container-width items-center justify-between  pt-6 pb-6 px-6 md:px-16 lg:px-24 xl:px-24" aria-label="Global">
+        <a href="https:&#x2F;&#x2F;privacyperceptions.org&#x2F;" class="-m-1.5 lg:-ml-9 p-1.5">
+            <span class="sr-only">TAPP panel logo</span>
+            
+                <img class="h-8 w-auto" src="https://privacyperceptions.org/assets/logo_full.svg" alt="TAPP panel logo">
+            
+        </a>
+        <div class="flex lg:hidden">
+            <button type="button" popovertarget="global-menu" class="text-primary -m-2.5 text-base font-semibold inline-flex items-center justify-center rounded-md p-2.5 ">
+                <span class="sr-only">Open main menu</span>
+                <!--svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                </svg-->
+                MENU
+            </button>
+        </div>
+        <div class="hidden lg:flex lg:gap-x-12">
+            
+            
+            
+            <a href="https://privacyperceptions.org/about/" class="text-base leading-7 font-semibold  text-primary hover:text-accent">
+                About
+            </a>
+            
+            
+            
+            
+            
+            
+            <a href="https://privacyperceptions.org/results/" class="text-base leading-7 font-semibold  text-primary hover:text-accent">
+                DataViz
+            </a>
+            
+            
+            <a href="https://privacyperceptions.org/findings/" class="text-base leading-7 font-semibold  text-primary hover:text-accent">
+                Findings
+            </a>
+            
+            
+            <a href="https://privacyperceptions.org/people/" class="text-base leading-7 font-semibold  text-primary hover:text-accent">
+                People
+            </a>
+            
+            
+            <a href="https://privacyperceptions.org/faq/" class="text-base leading-7 font-semibold  text-primary hover:text-accent">
+                FAQ
+            </a>
+            
+            
+            
+            
+            
+            
+            <a href="https:&#x2F;&#x2F;privacyperceptions.org&#x2F;/news" class="text-base leading-7 font-semibold text-white hover:text-primary">News</a>
+        </div>
+    </nav>
+</div>
+<script>
+  
+     var lastScrollTop;
+    
+       window.onscroll = function() {dropDownMenu();};
+    function dropDownMenu(){
+        
+        if (window.scrollY > document.getElementsByClassName("hero")[0].offsetHeight - 82){
+            document.getElementById("float-nav").classList.remove("-translate-y-full");
+            //document.getElementById("float-nav").classList.add("translate-y-0");
+            console.log("remove");
+        }else{
+            document.getElementById("float-nav").classList.add("-translate-y-full");
+            //document.getElementById("float-nav").classList.remove("translate-y-0");
+        }
+        
+        
+    }
+</script>
+
+
+  <!--main class=""><!--class='container'*/-->
+</main-->
+    
+
+
+    
+        
+        
+        
+    
+    
+    
+        
+    
+    
+    
+    
+        
+    
+
+<div
+    class="hero text-white flex fixed w-full -z-10 top-0 h-[260px] items-end "
+    style="background: url(https://privacyperceptions.org/assets/hero.png);background-size:cover;">
+    
+    <h1 class="text-xl !font-normal  pt-8 pb-8 px-6 md:px-16 lg:px-24 xl:px-24 m-0">Wave 6 Findings</h1>
+    
+    
+        <div class="w-full px-4 sm:px-6 md:px-16 lg:px-24 xl:px-24 flex flex-wrap gap-y-2 justify-start md:ml-auto md:w-auto md:flex-nowrap md:gap-x-8 md:justify-end">
+        
+       <a  class="block text-sm sm:text-base whitespace-normal break-words font-semibold md:inline md:whitespace-nowrap md:break-normal" href="#introduction">Introduction</a>
+        
+       <a  class="block text-sm sm:text-base whitespace-normal break-words font-semibold md:inline md:whitespace-nowrap md:break-normal" href="#data-collection">Data Collection</a>
+        
+       <a  class="block text-sm sm:text-base whitespace-normal break-words font-semibold md:inline md:whitespace-nowrap md:break-normal" href="#findings">Findings</a>
+        
+       <a  class="block text-sm sm:text-base whitespace-normal break-words font-semibold md:inline md:whitespace-nowrap md:break-normal" href="#conclusions">Conclusions</a>
+        
+        </div>
+    
+    
+    
+</div>
+<main class="mt-[260px] bg-white z-20 text-base top-0 relative"> 
+    <!--div class="-mt-4"-->
+        
+        <div class="flex items-center justify-center  bg-white w-full px-4 sm:px-8 md:px-16 lg:px-32 mb-12 pb-0 h-auto md:min-h-[25vh]">
+    
+    <h3 class="text-xl font-bold mb-0 w-full lg:w-4/6 mx-auto text-center">Policies, Practices, and Priorities: Transatlantic Experts’ Perceptions on Privacy (Wave 6)</h3>
+    
+</div>
+<div class="flex flex-wrap  bg-grey w-full px-4 sm:px-8 md:px-16 lg:px-32 mt-0 mb-0">
+    
+    <h3 class="text-xl font-bold w-full lg:w-3/5 mx-auto mt-0 mb-0">Download and Citation</h3>
+    
+    
+    <div class="text-[18px] leading-tight w-full lg:w-3/5 mx-auto mt-0 mb-0"><div class="w-full text-left" style="display: flex;">
+    <!-- Left vertical line -->
+    <div style="border-left: 2.5px solid #808285; padding-left: 16px;  margin-top: 10px">
+        <!-- Full report section -->
+        <div style="display: flex; align-items: center; justify-content: left; margin-top: 20px;">
+            <a class="text font-bold" style="text-decoration: none;">
+                Full report:
+            </a>
+        </div>
+        <div style="display: flex; align-items: center; justify-content: left; margin-top: 20px;">
+            <span style="margin-right: 16px;">
+                <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M14 9.52655H11.2609V2.76181H4.43671V0H14V9.52655Z" fill="#071A2D"/>
+                    <path d="M11.5818 0.368914L-0.000976562 12.0476L1.93586 14.0005L13.5186 2.32179L11.5818 0.368914Z" fill="#071A2D"/>
+                </svg>
+            </span>
+            <a href="w6_white_paper.pdf" download class="text-blue-500">
+                Download here (PDF)
+            </a>
+        </div>
+        <br><br>
+        <!-- Citation section -->
+        <a class="text font-bold" style="text-decoration: none;">
+            Citation:
+        </a>
+        <div style="display: flex; align-items: center; justify-content: left; margin-top: 20px; margin-bottom: 0px">
+            <span style="margin-right: 16px;">
+                <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M14 9.52655H11.2609V2.76181H4.43671V0H14V9.52655Z" fill="#071A2D"/>
+                    <path d="M11.5818 0.368914L-0.000976562 12.0476L1.93586 14.0005L13.5186 2.32179L11.5818 0.368914Z" fill="#071A2D"/>
+                </svg>
+            </span>
+            Citation: Shilton, K., Kreider, A., Mukhopadhyay, S. & TAPP Team. (2024). Transatlantic
+            Privacy Perception (TAPP)
+            Panel, Wave 6 White paper. <br/> [June 2025].
+        </div>
+    </div>
+</div></div>
+</div>
+<div class="flex flex-wrap  bg-white w-full px-4 sm:px-8 md:px-16 lg:px-32 mt-0 mb-0">
+    
+    <h3 class="text-xl font-bold w-full lg:w-3/5 mx-auto mt-0 mb-0">1 Introduction</h3>
+    
+    
+    <div class="text-[18px] leading-tight w-full lg:w-3/5 mx-auto mt-0 mb-0"><p>During a period of increasing data governance regulation in the US and the EU, how have organizational
+data governance practices changed? And how do privacy experts see their own role in making those
+changes? This white paper reports on survey results from a panel of North American and European
+privacy experts. It finds that privacy experts believe data governance is changing both organizationally
+and nationally, with increasing challenges accessing data in the United States. But while this change is
+happening, privacy experts report having influence within their organizations (particularly within the
+EU), but not on their national governments. And these experts worry about both misuses of data, and
+the impact of restrictions on data flows.</p>
+</div>
+</div>
+<p><div  class="relative !p-0"> 
+    <div id="introduction" class="absolute -top-[80px]">
+    </div>
+</div>
+
+<div class="flex flex-wrap  bg-grey w-full px-4 sm:px-8 md:px-16 lg:px-32 mt-0 mb-0">
+    
+    <h3 class="text-xl font-bold w-full lg:w-3/5 mx-auto mt-0 mb-0">2 Description of the TAPP Panel</h3>
+    
+    
+    <div class="text-[18px] leading-tight w-full lg:w-3/5 mx-auto mt-0 mb-0"><p>This paper builds on the Transatlantic Privacy Perceptions (TAPP), a survey panel which collects data
+from privacy policy experts and practitioners across the USA and Europe, representing diverse sectors
+such as academia, technology industry, non-technology industry, government, law, journalism,
+non-profit and non-governmental organizations, and think tanks (Kreuter et al., 2023). The TAPP panel
+differs from other surveys by systematically gathering insights from a diverse cohort of privacy experts,
+spanning multiple industries and countries and whose expertise provides practical perspectives on
+regulatory implementation, enforcement and effectiveness.</p>
+<p><strong>2.1 Panel Sample Composition</strong> The target population for the TAPP Panel is self-identified privacy policy experts with expertise in
+countries located on both sides of the Atlantic. The sample constitutes a purposive sample, indicating
+that participants were selected based on their expertise rather than randomly. Given our sampling
+strategy and the significant difficulty in recruiting digital privacy experts to participate, conclusions
+should not be extrapolated to the entire population of privacy experts. All results shown in this paper
+and on the TAPP website and reports are descriptive statistics obtained from the panel's respondents
+and are not intended to be generalizable to the whole population.</p>
+<p><strong>2.3 Data Collection</strong> The most recent wave of data collection, reported here, is Wave 6. The Wave 6 questionnaire asked
+respondents about their perceptions of changes in data sharing and access processes and policies,
+particularly in response to the growing implementation of AI (see Section 3 for specific questions and
+findings). Wave 6 fielding initially ran from 5 February to 5 March 2025, but was extended from 28 March
+to 22 May 2025 to allow for promotion at related events. Respondents comprised both invited panel
+2
+members (n = 94) as well as individuals recruited via links shared on social media and in relevant
+newsletters (n = 41) for a total of 105 partial or complete responses (AAPOR 1.1 or 1.2).</p>
+</div>
+</div>
+</p>
+<p><div  class="relative !p-0"> 
+    <div id="data-collection" class="absolute -top-[80px]">
+    </div>
+</div>
+
+<div class="flex flex-wrap  bg-white w-full px-4 sm:px-8 md:px-16 lg:px-32 mt-0 mb-0">
+    
+    <h3 class="text-xl font-bold w-full lg:w-3/5 mx-auto mt-0 mb-0">3 Findings from Wave 6</h3>
+    
+    
+    <div class="text-[18px] leading-tight w-full lg:w-3/5 mx-auto mt-0 mb-0"><p>Key takeaways: data governance and accessibility of both government and proprietary data have
+changed markedly in the last 1-2 years, due to changes in both technology and national policies, and
+particularly in the United States. On the whole, European experts report that data sharing and access in
+their countries have remained relatively stable and are more positive about the effects of national data
+governance policies on their work. A significant minority of American experts, responding to shifting
+data policies and priorities of the Trump administration, report decreased sharing and greater difficulty
+in accessing data, particularly government data. Large majorities also report that these changing
+policies have negatively affected their work.</p>
+<p>European experts also express greater influence in their organizations' data and AI policies than
+Americans do. Finally, all experts report concern that bad actors could use data to manipulate the
+general public.</p>
+<p><strong>3.1 Data Protection</strong> Data governance is a moving target. A majority of participants in both the US and EU report that their
+organization has changed how it protects data in the past 1-2 years.</p>
+<p><em>In the last 1-2 years, has your organization changed how it protects data? (org_protect)</em></p>
+<div style="text-align: center; margin-bottom: 40px;">
+    <img src="fig1.png" alt="Figure 1. Respondents composition by sector" style="display: block; width: 100%; max-width: 75%; margin: 60px auto 0;">
+    <p style="font-weight: bold;">Figure 1. Percentage of organizations that changed their data protection in the last 1-2 years</p>
+</div>
+<p><strong>3.2 Changes in Sharing Data</strong> </p>
+<p><em>In the last 1-2 years, has your organization changed the way it shares data with other organizations
+nationally? (org_sharing and org_sharing_natl combined)</em></p>
+<div style="text-align: center; margin-bottom: 40px;">
+    <img src="fig2.png" alt="Figure 1. Respondents composition by sector" style="display: block; width: 100%; max-width: 75%; margin: 60px auto 0;">
+    <p style="font-weight: bold;">Figure 2. Perception of organizational change in national data sharing in the last 1-2 years</p>
+</div>
+<p><em>n the last 1-2 years, has your organization changed the way it shares data with other organizations
+internationally? (org_sharing and org_sharing_intl combined)</em></p>
+<div style="text-align: center; margin-bottom: 40px;">
+    <img src="fig3.png" alt="Figure 1. Respondents composition by sector" style="display: block; width: 100%; max-width: 75%; margin: 60px auto 0;">
+    <p style="font-weight: bold;">Figure 3. Perception of organizational change in international data sharing in the last 1-2 years</p>
+</div>
+<p>Data sharing, on the other hand, remains largely unchanged on the whole, with a majority of both
+European and US respondents reporting no change at all in the way their organizations share data
+nationally or internationally. However, a significant minority of American respondents reported
+decreased data sharing in the last 1-2 years.</p>
+<p><strong>3.3 Data Access</strong></p>
+<p><em>Overall, in the last 1-2 years, have policy changes in [the US / the EU / country] made accessing
+government data / proprietary data easier, harder, or stayed the same? (access_gov and access_prop)</em></p>
+<div style="text-align: center; margin-bottom: 40px;">
+    <img src="tab1.png" alt="Figure 1. Respondents composition by sector" style="display: block; width: 100%; max-width: 75%; margin: 60px auto 0;">
+    <p style="font-weight: bold;">Table 1. Perception of the influence of policy changes in the last 1-2 years on accessing government and proprietary data</p>
+</div>
+<p>During the period of our survey, the United States was undergoing a crisis of access to government data
+after a change in administration, and that was reflected in our survey. 60% of US respondents indicated
+that it was becoming harder to access government data. 50% of US respondents were also concerned
+about access to proprietary or industry data.</p>
+<p><strong>3.4 Influence at Organizational Level</strong></p>
+<p><em>Do you feel you have influence in the development of data policies at organizational level?
+(data_influence_org)</em></p>
+<div style="text-align: center; margin-bottom: 40px;">
+    <img src="fig4.png" alt="Figure 1. Respondents composition by sector" style="display: block; width: 100%; max-width: 75%; margin: 60px auto 0;">
+    <p style="font-weight: bold;">Figure 4. Perception of personal influence in the development of data policies at organizational level</p>
+</div>
+<p><em>Do you feel you have influence in the development of AI policies at organizational level?
+(AI_influence_org)</em></p>
+<div style="text-align: center; margin-bottom: 40px;">
+    <img src="fig5.png" alt="Figure 1. Respondents composition by sector" style="display: block; width: 100%; max-width: 75%; margin: 60px auto 0;">
+    <p style="font-weight: bold;">Figure 5. Perception of personal influence in the development of AI policies at organizational level</p>
+</div>
+<p>European respondents are feeling much more confident about their influence within their
+organizations. 70% of respondents reported influence on both data and AI policies in their organization.
+In contrast, only 35% of US respondents reported influence on data policies, while US respondents
+were evenly split on whether they impacted AI policies in their organizations</p>
+<p><strong>3.5 Influence at National Policy Level</strong></p>
+<p><em>Do you feel you have influence in the development of data policies at national policy level?
+(dat_influence_policy)</em></p>
+<div style="text-align: center; margin-bottom: 40px;">
+    <img src="fig6.png" alt="Figure 1. Respondents composition by sector" style="display: block; width: 100%; max-width: 75%; margin: 60px auto 0;">
+    <p style="font-weight: bold;">Figure 6. Perception of personal influence in the development of data policies at national policy level</p>
+</div>
+<p><em>Do you feel you have influence in the development of AI policies at national policy level?
+(AI_influence_policy)</em></p>
+<div style="text-align: center; margin-bottom: 40px;">
+    <img src="fig7.png" alt="Figure 1. Respondents composition by sector" style="display: block; width: 100%; max-width: 75%; margin: 60px auto 0;">
+    <p style="font-weight: bold;">Figure 7. Perception of personal influence in the development of AI policies at national policy level</p>
+</div>
+<p>However, when it came to national data governance policies in both regions, many fewer respondents
+felt they had influence. Overwhelming majorities in both regions answered that they did not influence
+data or AI policies at the national level.</p>
+<p><strong>3.6 Perceived Manipulation</strong></p>
+<p><em>How concerned are you that adversaries or bad actors could use data to manipulate the general public?
+(public_manipulation)</em></p>
+<div style="text-align: center; margin-bottom: 40px;">
+    <img src="fig8.png" alt="Figure 1. Respondents composition by sector" style="display: block; width: 100%; max-width: 75%; margin: 60px auto 0;">
+    <p style="font-weight: bold;">Figure 8. Concern about manipulation by adversaries or bad actors towards the general public</p>
+</div>
+<p><em>How concerned are you that adversaries or bad actors could use data to manipulate people
+like you? (self_manipulation)</em></p>
+<div style="text-align: center; margin-bottom: 40px;">
+    <img src="fig9.png" alt="Figure 1. Respondents composition by sector" style="display: block; width: 100%; max-width: 75%; margin: 60px auto 0;">
+    <p style="font-weight: bold;">Figure 9. Concern about manipulation by adversaries or bad actors towards oneself</p>
+</div>
+<p>Finally, we asked about perceptions of the possible negative impacts of changing data governance,
+including potential misuses of data and negative impacts for work, the economy, and the conduct of
+science. A large majority of both European and US respondents worried that data could be used to
+manipulate the general public, but many less worried about being manipulated themselves.</p>
+<p><strong>Negative Impact of Policies</strong></p>
+<p><em>In your opinion, have state or national policies that restrict data flows had a positive, negative, or
+no impact on your work / on the national economy as a whole / on science?
+(Neg_restrictions_work, Neg_restrictions_econ, Neg_restrictions_science)</em></p>
+<div style="text-align: center; margin-bottom: 40px;">
+    <img src="fig10.png" alt="Figure 1. Respondents composition by sector" style="display: block; width: 100%; max-width: 75%; margin: 60px auto 0;">
+    <p style="font-weight: bold;">Figure 10. Perception of negative impact of state or national policies that restrict data flows</p>
+</div>
+<p>A minority of Europeans were worried about data restrictions impacting their work, their national
+economies, or the practice of science. This contrasted with US experts, large majorities of whom
+worried that restricted data flows would negatively impact both the national economy and the conduct
+of science.</p>
+</div>
+</div>
+</p>
+
+        
+        
+    <!--/div -->
+</main>
+<script>
+    //remove empty <p></p> generated by Zola
+     var paragraphs = document.querySelectorAll("main > p");
+       for (var i = 0; i < paragraphs.length; i++) {
+        if (paragraphs[i].innerHTML==""){
+            paragraphs[i].remove();
+        }
+        
+    }
+</script>
+
+  
+  <footer class="bg-white text-primary py-6 px-6 md:px-16 lg:px-24 xl:px-24 z-40" aria-labelledby="footer-heading">
+    <h2 id="footer-heading" class="sr-only">Footer</h2>
+
+    <div class="flex flex-wrap justify-between items-start space-y-4 md:space-y-0"> <!-- flex-wrap added for wrapping -->
+        <!-- Contact Information -->
+        <div class="flex flex-col md:flex-row md:items-center space-y-4 md:space-y-0 md:space-x-8"> <!-- Column on small screens, row on larger screens -->
+            <!-- Email Section -->
+            <a href="mailto:info@privacyperceptions.org" class="flex items-center text-base font-semibold leading-tight hover:text-accent">
+                <i class="fas fa-envelope mr-2"></i> <!-- Email icon -->
+                info@privacyperceptions.org
+            </a>
+
+            <!-- LinkedIn Section -->
+            <a href="https://www.linkedin.com/company/tapp-insights" target="_blank" class="flex items-center text-base font-semibold leading-tight hover:text-accent">
+                <i class="fab fa-linkedin mr-2"></i> <!-- LinkedIn icon -->
+                @tapp-insights
+            </a>
+        </div>
+
+        <!-- Footer Links -->
+        <div class="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-6"> <!-- Make links wrap and align properly -->
+            <a href="/privacy-policy" class="text-base font-semibold leading-tight hover:text-accent">Privacy Policy</a>
+            <a href="/legal-notice" class="text-base font-semibold leading-tight hover:text-accent">Legal Notice</a>
+            <a href="/data-protection" class="text-base font-semibold leading-tight hover:text-accent">Data Protection Statement</a>
+        </div>
+    </div>
+
+    <!-- Divider -->
+    <div class="border-t border-gray-300 mt-6"></div>
+
+    <!-- Footer bottom -->
+    <div class="flex justify-between items-center pt-4">
+        <p class="text-sm leading-5">&copy; 2024– Transatlantic Privacy Perceptions. All rights reserved.</p>
+    </div>
+</footer>
+
+
+</body>
+</html>
