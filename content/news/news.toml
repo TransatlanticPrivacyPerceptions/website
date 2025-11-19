@@ -1,4 +1,11 @@
 [[news]]
+title = "Where does privacy stand now, and what’s the outlook for the future? "
+anews = """
+Our trend analysis for 2025 has just been published. Check out the results here: https://privacyperceptions.org/findings/wave7/
+date = "2025-11-18"
+pin = "true"
+
+[[news]]
 title = "Are LLMs handling sensitive data appropriately? Do current laws encourage or discourage innovation? How do you rate Big Tech's privacy performance? What about government agencies?"
 anews = """
 
