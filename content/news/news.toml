@@ -30,8 +30,8 @@ date = "2025-10-13"
 pin = "true"
 
 [[news]]
+title ="Two weeks ago, we launched Wave 7 of the TAPP survey to understand how privacy landscape changed in the part year."
 anews = """
-Two weeks ago, we launched Wave 7 of the TAPP survey to understand how privacy landscape changed in the part year.
 
 In addition, for the first time, we're asking you to rate OpenAI, Google, xAI, DeepSeek, and other AI companies on their data protection practices; and whether sensitive personal data should ever be used for model training.
 
