@@ -1,5 +1,5 @@
 +++
-title="Privacy Policy"
+title="Privacy Note"
 weight=1
 extra.footer_nav=true
 +++
