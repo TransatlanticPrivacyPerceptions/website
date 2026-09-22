@@ -26,6 +26,8 @@ title="Why participate"
 )%}
 By sharing your thoughts and outlook on current and emerging digital privacy issues, your participation will contribute to informing policymakers and companies internationally about AI and digital privacy trends and concerns and how they can best be addressed in policy <br> and technological design.
 {% end%}
-{{
-mailchimp_form(top_text="Subscribe to receive our latest research updates.",subscribe_text="I would like to receive email communications from TAPP and agree with the data protection regulations and the described processing of personal data there.")
-}}
+
+<div style="background-color: #071A2D; color: #ffffff; padding: 50px 30px; text-align: center; font-size: 1.5rem; line-height: 1.4;">
+  For more information, contact us at <a href="mailto:info@privacyperceptions.org" style="color: #f7ca5a; text-decoration: underline;">info@privacyperceptions.org</a>
+</div>
+
