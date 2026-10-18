@@ -1,4 +1,14 @@
 [[news]]
+title = "Privacy is not the enemy."
+anews = """
+
+Our wave 8 results has just been published. <br>
+Check out the <a href="https://www.linkedin.com/pulse/privacy-enemy-useful-public-data-tapp-insights-tvyle/">LinkedIn post</a>.
+"""
+date = "2026-10-18"
+pin = "true"
+
+[[news]]
 title = "Where does privacy stand now?"
 anews = """
 
